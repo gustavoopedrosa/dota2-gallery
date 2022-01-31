@@ -25,10 +25,12 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Title>Highlights</Title>
-      <Highlights />
-      <Title>Gallery</Title>
-      <Gallery />
+      <main>
+        <Title>Highlights</Title>
+        <Highlights />
+        <Title>Gallery</Title>
+        <Gallery />
+      </main>
       <Footer/>
     </>
   )

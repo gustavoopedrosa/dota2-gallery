@@ -1,0 +1,32 @@
+{
+    "name": "dota 2 gallery",
+    "images": {
+        "highlights": [
+            "http://lorempixel.com.br/800/400/?1",
+            "http://lorempixel.com.br/800/400/?2",
+            "http://lorempixel.com.br/800/400/?3"
+        ],
+        "gallery": [
+            "http://lorempixel.com.br/300/300/?1",
+            "http://lorempixel.com.br/300/300/?2",
+            "http://lorempixel.com.br/300/300/?3",
+            "http://lorempixel.com.br/300/300/?4",
+            "http://lorempixel.com.br/300/300/?5",
+            "http://lorempixel.com.br/300/300/?6",
+            "http://lorempixel.com.br/300/300/?7",
+            "http://lorempixel.com.br/300/300/?8",
+            "http://lorempixel.com.br/300/300/?9",
+            "http://lorempixel.com.br/300/300/?10",
+            "http://lorempixel.com.br/300/300/?11",
+            "http://lorempixel.com.br/300/300/?12",
+            "http://lorempixel.com.br/300/300/?13",
+            "http://lorempixel.com.br/300/300/?14",
+            "http://lorempixel.com.br/300/300/?15",
+            "http://lorempixel.com.br/300/300/?16",
+            "http://lorempixel.com.br/300/300/?17",
+            "http://lorempixel.com.br/300/300/?18",
+            "http://lorempixel.com.br/300/300/?19",
+            "http://lorempixel.com.br/300/300/?20"
+        ]
+    }
+}

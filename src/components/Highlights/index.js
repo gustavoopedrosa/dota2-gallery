@@ -1,10 +1,5 @@
 import { useState } from 'react'
-
-const HIGHLIGHTS_IMAGES = [
-    'http://lorempixel.com.br/800/400/?1',
-    'http://lorempixel.com.br/800/400/?2',
-    'http://lorempixel.com.br/800/400/?3'
-]
+import appConfig from '../../../config.json'
 
 export default function Highlights() {
     const [activeImage, setActiveImage] = useState(0) 
@@ -15,9 +10,9 @@ export default function Highlights() {
                 <button className='left-arrow' onClick={() => {
                     activeImage > 0 ? setActiveImage(--activeImage) : ''
                 }}>&#10132;</button>
-                <img src={HIGHLIGHTS_IMAGES[activeImage]} alt='imagem em destaque'/>
+                <img src={appConfig.images.highlights[activeImage]} alt='imagem em destaque'/>
                 <button onClick={() => {
-                    activeImage < HIGHLIGHTS_IMAGES.length - 1 ? setActiveImage(++activeImage) : ''
+                    activeImage < appConfig.images.highlights.length - 1 ? setActiveImage(++activeImage) : ''
                 }}>&#10132;</button>
             </section>
             <style jsx>{`

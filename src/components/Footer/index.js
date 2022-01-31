@@ -8,10 +8,10 @@ export default function Footer() {
             <footer>
                 <address>
                     <div>
-                        <a href="https://github.com/gustavoopedrosa" target="_blank">
+                        <a href="https://github.com/gustavoopedrosa">
                             <Image src={githubIcon} alt='Ícone do Github' width={50} height={50} />
                         </a>
-                        <a href="https://www.linkedin.com/in/gustavo-pedrosa-/" target="_blank">
+                        <a href="https://www.linkedin.com/in/gustavo-pedrosa-/">
                             <Image src={linkedinIcon} alt='Ícone do LinkedIn' width={50} height={50} />
                         </a>
                     </div>

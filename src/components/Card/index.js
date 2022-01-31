@@ -1,7 +1,9 @@
 export default function Card(props) {
     return (
         <>
-            <li>
+            <li onClick={() => {
+                props.onClick()
+            }}>
                 <div>
                     <img src={props.src} alt="Item da lista de imagens"/>
                 </div>
