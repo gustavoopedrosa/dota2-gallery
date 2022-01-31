@@ -51,7 +51,7 @@ export default function Modal() {
                 }
 
                 section {
-                    height: 800px;
+                    min-height: 80%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-evenly;
@@ -60,8 +60,11 @@ export default function Modal() {
 
                 .gallery {
                     display: flex;
+                    justify-content: space-between;
                     align-items: center;
                     gap: 2rem;
+                    height: 700px;
+                    width: 1440px;
                 }
 
                 .arrow {
@@ -90,6 +93,10 @@ export default function Modal() {
 
                 .left-arrow {
                     transform: rotateY(180deg);
+                }            
+                
+                img {
+                    max-height: 700px;
                 }
             `}</style>
         </>

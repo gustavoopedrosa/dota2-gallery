@@ -22,16 +22,17 @@ export default function Highlights() {
                     flex-wrap: wrap;
                     align-items: center;
                     justify-content: center;
+                    gap: 2rem;
                 }
 
                 button {
-                    height: 400px;
-                    width: 30px;
                     border: none;
                     border-radius: 0;
-                    background-color: #F4B8A4;
+                    background-color: transparent;
                     transition: background .5s;
-                    font-size: 1.8rem;
+                    font-size: 3rem;
+                    padding: 1rem;
+                    border-radius: 1rem;
                 }
 
                 button:hover {
@@ -41,6 +42,12 @@ export default function Highlights() {
 
                 .left-arrow {
                     transform: rotateY(180deg);
+                }
+
+                img {
+                    width: 800px;
+                    height: 400px;
+                    object-fit: cover;
                 }
             `}</style>
         </>
